@@ -12,7 +12,8 @@ Available flex shapes:
 "VM.Standard3.Flex"   # Intel Ice Lake
 "VM.Standard.A1.Flex" # Ampere Altra
 "VM.Standard.E3.Flex" # AMD Rome
-"VM.Standard.E4.Flex" # AMD Milan
+"VM.Standard.E4.Flex" # AMD Ashburn
+"VM.Standard.E2.1"    # AMD Sao Paulo
 */
 
 variable "shape" {
