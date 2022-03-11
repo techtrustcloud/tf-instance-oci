@@ -1,7 +1,12 @@
+data "oci_identity_compartment" "root" {
+  id = var.root_compartment_id
+}
+
 resource "oci_identity_compartment" "_" {
-  name          = var.name
-  description   = var.name
-  enable_delete = true
+  compartment_id = data.oci_identity_compartment.root.id
+  name           = var.name
+  description    = var.name
+  enable_delete  = true
 }
 
 locals {
