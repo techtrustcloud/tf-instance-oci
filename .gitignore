@@ -1,0 +1,6 @@
+# Terraform
+.terraform*
+terraform.tfstate*
+
+# SSH keys
+id_rsa*
