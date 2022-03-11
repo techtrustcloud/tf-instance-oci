@@ -1,6 +1,6 @@
 variable "name" {
   type    = string
-  default = "kubernetes-on-arm-with-oracle"
+  default = "instances-on-arm-with-oracle"
 }
 
 /*
