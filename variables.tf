@@ -1,3 +1,6 @@
+variable "root_compartment_id" {
+  type = string
+}
 variable "name" {
   type    = string
   default = "instances-on-arm-with-oracle"
