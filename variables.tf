@@ -3,7 +3,7 @@ variable "root_compartment_id" {
 }
 variable "name" {
   type    = string
-  default = "instances-on-arm-with-oracle"
+  default = "instances-on-with-oracle"
 }
 
 /*
