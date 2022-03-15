@@ -3,9 +3,13 @@ variable "root_compartment_id" {
 }
 variable "name" {
   type    = string
-  default = "instances-on-with-oracle"
+  default = "instances-ampere"
 }
 
+variable "description" {
+  type    = string
+  default = "instances Ampere Altra in Ashburn"
+}
 /*
 Available flex shapes:
 "VM.Optimized3.Flex"  # Intel Ice Lake

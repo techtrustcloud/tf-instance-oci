@@ -1,7 +1,6 @@
-# OCI - ARM INSTANCE 
+# OCI with Terraform
 
-This is a Terraform configuration to deploy a instances ARM on
-[Oracle Cloud Infrastructure][oci]. 
+The main objective of this deploy with terraform is the implementation of an Ampere Altra instance. However, it can be easily modified to deploy several instances of different architectures. A good one.
 
 By default, it deploys a 1-node cusing ARM machines. Each machine
 has 1 OCPU and 6 GB of RAM, which means that the cluster fits within
