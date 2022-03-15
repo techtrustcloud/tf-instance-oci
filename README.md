@@ -1,6 +1,6 @@
 # OCI with Terraform
 
-The main objective of this deploy with terraform is the implementation of an Ampere Altra instance. However, it can be easily modified to deploy several instances of different architectures. A good one.
+The main objective of this deploy with terraform is the implementation of an Ampere Altra instance. However, it can be easily modified to deploy several instances of different architectures.
 
 By default, it deploys a 1-node cusing ARM machines. Each machine
 has 1 OCPU and 6 GB of RAM, which means that the cluster fits within
