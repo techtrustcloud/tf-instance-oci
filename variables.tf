@@ -3,8 +3,14 @@ variable "root_compartment_id" {
 }
 variable "name" {
   type    = string
-  default = "instances-ampere"
+  default = "labs-oci"
 }
+
+variable "descrition" {
+  type    = string
+  default = "Lab and poc"
+}
+
 
 variable "description" {
   type    = string
