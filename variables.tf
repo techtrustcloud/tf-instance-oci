@@ -6,15 +6,9 @@ variable "name" {
   default = "labs-oci"
 }
 
-variable "descrition" {
-  type    = string
-  default = "Lab and poc"
-}
-
-
 variable "description" {
   type    = string
-  default = "instances Ampere Altra in Ashburn"
+  default = "instances Pocs and Labs"
 }
 /*
 Available flex shapes:
