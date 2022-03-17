@@ -5,7 +5,7 @@ data "oci_identity_compartment" "root" {
 resource "oci_identity_compartment" "_" {
   compartment_id = data.oci_identity_compartment.root.id
   name           = var.name
-  description    = var.name
+  description    = var.description
   enable_delete  = true
 }
 
